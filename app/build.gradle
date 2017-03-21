@@ -55,7 +55,33 @@ android {
         xiaomi {
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "xiaomi"]
         }
-
+        zhushou91 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "zhushou91"]
+        }
+        market360 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "market360"]
+        }
+        marketandorid {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "marketandorid"]
+        }
+        yingyonghui {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "yingyonghui"]
+        }
+        jifengmarket {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "jifengmarket"]
+        }
+        mumayi {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "mumayi"]
+        }
+        anzhimarket {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "anzhimarket"]
+        }
+        yingyongbao {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "yingyongbao"]
+        }
+        huaweimarket {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "huaweimarket"]
+        }
     }
     //修改生成的apk名字及输出文件夹
     applicationVariants.all { variant ->
